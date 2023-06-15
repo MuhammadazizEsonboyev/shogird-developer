@@ -4,7 +4,7 @@ import { SignInPages } from "./pages/SignInPages";
 
 export const navbar = [
   {
-    path: "/courses",
+    path: "/home",
     title: "Kurslar",
     id: 1,
     element: <HeaderPages/>
