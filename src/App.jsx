@@ -3,7 +3,7 @@ import { NavbarPage } from "./pages/NavbarPages";
 import { navbar } from "./utils";
 import React from "react";
 import NotFound from "./components/NotFound/NotFound";
-// import { FooterPages } from "./pages/FooterPages";
+import { FooterPages } from "./pages/FooterPages";
 
 export default function App() {
   return (
@@ -21,7 +21,7 @@ export default function App() {
           )
         })}
       </Routes>
-      {/* <FooterPages/> */}
+      <FooterPages/>
     </>
   )
 }
